@@ -17,13 +17,13 @@ const CountryMap = () => {
   console.log(countryDetails);
   return (
     <div>
-      {/* <WorldMap
+      <WorldMap
         color="red"
         title="Top 10 Populous Countries"
         value-suffix="people"
         size="lg"
         data={countryDetails}
-      /> */}
+      />
     </div>
   );
 };

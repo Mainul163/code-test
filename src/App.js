@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
 import CountryDetails from "./components/countryDetails/CountryDetails";
 import CountryMap from "./countryMap/CountryMap";
 
