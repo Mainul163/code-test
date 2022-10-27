@@ -4,7 +4,6 @@ import CountryMap from "./countryMap/CountryMap";
 function App() {
   return (
     <div>
-      <CountryMap />
       <CountryDetails />
     </div>
   );

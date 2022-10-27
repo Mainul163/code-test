@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { get_countryName } from "./../../datastore/countryNameAction/CountryNameAction";
 import { Row, Col, Card } from "antd";
 import moment from "moment";
+import CountryMap from "../../countryMap/CountryMap";
 
 const CountryDetails = () => {
   const countryDetails = useSelector(
